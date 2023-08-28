@@ -8,3 +8,12 @@ body:
     attributes:
       value: |
         Testing!!!
+
+  - type: checkboxes
+    id: test_checkbox
+    attributes:
+      label: Test Checkbox
+      description: This is a testing checkbox
+      options:
+        - label: This is a label
+          required: true
