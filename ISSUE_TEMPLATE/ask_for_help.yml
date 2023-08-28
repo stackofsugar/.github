@@ -1,0 +1,10 @@
+name: 👋 Test issue template
+description: This is a test issue template
+labels:
+  - need help
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Testing!!!
