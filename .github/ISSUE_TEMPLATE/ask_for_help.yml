@@ -2,7 +2,7 @@ name: 👋 Ask for help
 description: Are you stuck on something? I'll gladly help you out of it!
 title: "[Help]: "
 labels:
-  - need_help
+  - help wanted
 
 body:
   - type: markdown
