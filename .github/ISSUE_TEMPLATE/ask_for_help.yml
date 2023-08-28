@@ -24,8 +24,8 @@ body:
       label: Details
       description: |
         Please detail your help request. Include a specific file or action if neccesary.
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: textarea
     attributes:
