@@ -1,19 +1,35 @@
-name: 👋 Test issue template
-description: This is a test issue template
+name: 👋 Ask for help
+description: Are you stuck on something? I'll gladly help you out of it!
+title: "[Help]: "
 labels:
-  - need help
+  - need_help
 
 body:
   - type: markdown
     attributes:
       value: |
-        Testing!!!
+        Before you open any issues, please read the [Code of Conduct](https://github.com/stackofsugar/.github/blob/main/CODE_OF_CONDUCT.md).
 
   - type: checkboxes
-    id: test_checkbox
+    id: code_of_conduct
     attributes:
-      label: Test Checkbox
-      description: This is a testing checkbox
+      label: Code of Conduct
+      description: We have implemented a Code of Conduct that all participants must understand and follow.
       options:
-        - label: This is a label
+        - label: I have read and understood the [Code of Conduct](https://github.com/stackofsugar/.github/blob/main/CODE_OF_CONDUCT.md)
           required: true
+
+  - type: textarea
+    attributes:
+      label: Details
+      description: |
+        Please detail your help request. Include a specific file or action if neccesary.
+      validations:
+        required: true
+
+  - type: textarea
+    attributes:
+      label: Additional information
+      description: Add any other context or screenshots about the help request here.
+    validations:
+      required: false
